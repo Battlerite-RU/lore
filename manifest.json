@@ -1,0 +1,15 @@
+{
+  "short_name": "Книга знаний",
+  "name": "Книга знаний мира Battlerite",
+  "icons": [
+    {
+      "src": "https://battlerite-ru.github.io/lore/images/favicon/favicon3-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#16192b",
+  "background_color": "#ffffff"
+}
