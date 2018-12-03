@@ -1302,7 +1302,7 @@
             }, {
                 text: "Дурман проделал свою работу, и сон накрыл Фрею, будто лёгкое дуновение ветерка. Она перенеслась из мира сущего туда, где кружились сны и кошмары."
             }, {
-                text: "Фрея открыла глаза и обнаружила себя на обширном сыром болоте. Она взглянула наверх и увидела кроваво-красное небо и чёрную, как обсидиан, луну. Ужасающие пульсирующие деревья из плоти извивались, как черви. С деревьев свисали мёртвые лесные создания: кролики, мыши, барсуки, опоссумы и им подобные. С каждым шагом Фреи почва присасывалась к её сапогам, будто пытаясь удержать её и поглотить."
+                text: "Фрея открыла глаза и обнаружила себя на обширном сыром болоте. Она взглянула наверх и увидела кроваво-красное небо и чёрную, как обсидиан, луну. Ужасающие пульсирующие деревья из плоти извивались, как черви. С деревьев свисали мёртвые лесные обитатели: кролики, мыши, барсуки, опоссумы и им подобные. С каждым шагом Фреи почва присасывалась к её сапогам, будто пытаясь удержать её и поглотить."
             }, {
                 text: "Фрея прокладывала себе путь сквозь эту кошмарную топь, как вдруг огромное нечто показалось вдали. Два громадных жёлтых шара сидели в широкой плоской голове. Фрея сразу признала в этом существе змеиную богиню – Акронис. Фрея крепко сжала свой меч и осторожно приблизилась к огромному духу-змее."
             }, {
@@ -1570,7 +1570,7 @@
             }, {
                 text: 'Затем, он начал читать заклинание: «Услышь меня, создание из чёрного потустороннего мира, внимай голосу своего хозяина. Аз есмь Араду, призываю из бездны тебя, заключённого в алебастровые оковы!». Линии круга начали светиться зелёным. Комната затряслась. Медленно нарастал грохот и заструился спиралью чёрно-фиолетовый дым по центру круга. Ритуал работал!'
             }, {
-                text: "Гул начал стихать, зелёное свечение угасло, дым рассеялся и показался силуэт… чертёнка? Создание было одето в странную фиолетовую накидку, а на том месте, где должно быть лицо, не было ничего, кроме огромного заполненного огнём рта, усеянного острыми зубами. У него была серая кожа и когти на руках. Но оно было едва ли с метр ростом! Как вы уже, возможно, догадались, это был никто иной, как Эзмо Проказник. Да, едва ли это был Великий Демон, которого Араду желал призвать."
+                text: "Гул начал стихать, зелёное свечение угасло, дым рассеялся и показался силуэт… чертёнка? Чертёнок был одет в странную фиолетовую накидку, а на том месте, где должно быть лицо, не было ничего, кроме огромного заполненного огнём рта, усеянного острыми зубами. У него была серая кожа и когти на руках. Но оно было едва ли с метр ростом! Как вы уже, возможно, догадались, это был никто иной, как Эзмо Проказник. Да, едва ли это был Великий Демон, которого Араду желал призвать."
             }, {
                 text: '«Какого дьявола!», – вскрикнул Араду – «Так не пойдёт, совсем не пойдёт! Должно быть, в ритуал закралась ошибка». Эзмо потянулся и зевнул: «Нет ошибки. Получил то, за что платил, дружок». Араду рухнул на пол в разочаровании. Он не мог совершить ритуал снова – закончились ингредиенты. Но он подумал, может, хотя бы присмотреться к тому, что он призвал. Возможно, оно принесёт какую-то пользу. Араду заговорил своим самым официозным и повелевающим голосом.'
             }, {
@@ -1662,71 +1662,71 @@
                 image: "https://battlerite-ru.github.io/lore/images/stories/ashka/cute_boi.jpg"
             }]
             , X = [{
-                title: "Leaving Home - Blossom’s Tale"
+                title: " П Покидая дом — история Блоссом"
             }, {
-                text: "My home is a land of endless wonder and boundless beauty - a magical place known as the Silverdeep Forest."
+                text: "Мой дом – край бесконечных чудес и безграничной красоты, волшебное место под названием Лес Серебряной Глуби."
             }, {
-                text: "I’ve lived there all my life. When I was a young fawn, I would spend my days prancing around and getting into all sorts of mischief. At night, I would often frisk beneath Ahmrilas’ boughs and watch the moonbeam butterflies flicker as my sisters and forest friends played music and sang songs."
+                text: "Я жила там всю свою жизнь. Будучи юной фавной, я целыми днями скакала там да сям и от души резвилась. Часто по ночам я прыгала под сенью ветвей Амриласа и наблюдала за порханьем луносветных бабочек под музыку и пение моих сестёр и лесных друзей."
             }, {
-                text: "Ahmrilas was an ancient tree, the only of his kind, and, according to Mother, had lived for thousands of years. He was no ordinary tree, but it was not just his long time in this world that made him special."
+                text: "Амрилас был древним деревом, единственным в своём роде и, по словам Матери, жившим уже тысячи лет. Он был необычным деревом, и таковым его делала не только столь продолжительная жизнь."
             }, {
-                text: "Ahmrilas had a special aura around him that you could feel with your very spirit. It was commonly known that if you would sleep one night beneath Ahmrilas, by the rising of the great Golden Skygem, any ailment you had would be healed. Ahmrilas’ healing aura was not the end of his gifts, but I will get to that later."
+                text: "Вокруг Амриласа была аура, которую можно было ощутить самим своим естеством. Все знали, что если поспишь одну ночь подле Амриласа, с восходом великого Золотого Небоцвета любые твои недуги будут исцелены. Дары Амриласа не заканчивались на его целебной силе, но мы вернёмся к этому позже."
             }, {
-                text: "One particular evening, when the Golden Skygem’s light was waning, I was startled by a peculiar cry of distress coming from deep within the forest. It sounded avian, but even though I knew all of the sounds from all of the birds that dwelt in my forest, this one I did not recognize. I picked up my trusty staff and ran as fast as my hooves could carry me. Like Ahmrilas, healing was one of my gifts, and if I could help this poor creature I surely would."
+                text: "Одним прекрасным вечером, когда свет Золотого Небоцвета уже угасал, меня испугал исполненный страданий крик, шедший из глубины леса. Крик был похож на птичий, но я не могла его разобрать, хоть и знала звуки всех птиц, обитавших в моём лесу. Я взяла свой верный посох и побежала так быстро, как позволяли мои копытца. Подобно Амриласу, исцеление было одним из моих даров, и я обязана была помочь тому бедному созданию по возможности."
             }, {
-                text: "I slid down muddy slopes and skipped through bubbling streams, carefully and quickly leaping on the stepping stones. I was getting close as the call of the creature amplified in intensity. With a calculated bound, I made it over a massive fallen tree and at last found the distressed little thing."
+                text: "Я скользнула вниз по мокрым глинистым холмам и проскочила через бурлящие ручьи, осторожно ступая по бродовым камням. Я шла всё ближе на зов, судя по нарастанию его звука. Ловко перескочив через ствол упавшего дерева, я оказалась, наконец, около напуганного малыша."
             }, {
-                text: 'It was indeed a bird, but one I’d never seen before, caught in the trap of the Maiming Margarid. A devious flesh-eating plant, the Maiming Margarid incapacitates unsuspecting creatures with its paralyzing thorns and feeds off of them as they slowly sink into the soil. Mother always told me, "as wonderful as all life in our Forest can be, the Forest can be just as unforgiving."'
+                text: 'Это и вправду была птица, но таких я доселе не видывала. Она попалась в ловушку Маргаритки-Костоломки. Хитрое плотоядное растение, Маргаритка-Костоломка обездвиживает своими парализующими шипами ничего не подозревающих зверушек и кормится ими, пока они медленно уходят под землю. Мать всегда говорила мне: «Насколько чудесной может быть жизнь в нашем Лесу, настолько же Лес может быть беспощадным».'
             }, {
-                text: "This poor creature learned this lesson first hand, or to more accurately put it, first wing. The quick vine of the Margarid had struck and fractured his little wing. The bird was a young one, who most likely had gotten lost and settled down for the night to rest. He stared at me with wide eyes and raised his bushy strawberry-red eyebrows. He was clearly very frightened and shook in terror. Thankfully, I knew just what to do."
+                text: "Бедняга познал этот урок на себе, точнее сказать, на своём крыле. Ветвь Маргаритки стремительно вонзилась в его маленькое крыло и повредила его. Это был ещё птенец, скорее всего, заблудившийся и сделавший привал на эту ночь. Он уставился на меня широко открытыми глазами и поднял свои мохнатые землянично-красные брови. К счастью, я знала, что нужно делать."
             }, {
-                text: "I pulled out some acorns along with a few leaves out of my medicine pouch given to me by dear Ahmrilas. Gently, I untangled the bird from the vines of the Margarid and sat him down on the soft grass. I ground the acorns and leaves into a paste and gently covered his wounded wing. The liquid from the leaves reacted with the acorns to harden and form a cast, protecting the wound from outside infection."
+                text: "Я достала несколько желудей и листьев из своей сумки со снадобьями, данной мне милым Амриласом. Аккуратно я выпутала птичку из ветвей Маргаритки и положила на мягкую траву. Я растолкла жёлуди и листья в кашицу и мягко покрыла смесью его раненое крыло. Влага из листьев среагировала с желудями и затвердела, защищая рану от внешних инфекций."
             }, {
                 image: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom01.jpg"
             }, {
-                text: "I nestled the strange green bird close to my chest in order to make the difficult journey back less bumpy on the injured animal. He did not utter a peep in objection and in fact, fell asleep shortly."
+                text: "Я прижала странную зелёную птицу поближе к груди, чтобы нелёгкая дорога назад не прошла для раненой в сильной тряске. Она не противилась и не издала ни единого писка и, к тому же, скоро уснула."
             }, {
-                text: "It was night when I got back home and back to Ahmrilas. I held the sleeping bird in my arms as I lay beneath the thick branches and the next morning I found him flapping around without a care in the world, his wing was completely healed. When he saw I was awake, he squawked in delight and flew right on top of my head and settled in as if it was his nest. And it is there he stayed."
+                text: "Домой, назад к Амриласу, я вернулась уже к ночи. Спящий птенец был у меня в руках, когда я улеглась под сенью широких ветвей дерева, а на следующее утро он уже беззаботно порхал вокруг. Его крыло было полностью исцелено. Когда он заметил, что я проснулась, он радостно защебетал, приземлился мне прямиком на макушку и уселся там будто в родном гнезде. Там он и остался."
             }, {
-                text: "This was how I met my life-long companion, Maxwell. We have been inseparable ever since. My sisters teased me for the odd green hat that I always wore. But I didn’t mind. This, of course, was Maxwell, resting on his favorite perch."
+                text: "Так я и повстречала своего пожизненного приятеля, Максвелла. С тех пор мы неразлучны. Мои сёстры хихикали над моей престранной зелёной шляпкой, которую я никогда не снимала. А я и не возражала. То был, конечно же, мой Максвелл на своей любимой жёрдочке."
             }, {
                 linebreak: !0
             }, {
-                text: "So how does a faun like me and a silly green bird wind up fighting in the arenas so far from home?"
+                text: "Так как же существа вроде меня и несмышлёной зелёной птички пришли к сражениям на аренах вдали от дома?"
             }, {
-                text: "Well… not long ago I was woken up from my mid-day nap from the sounds of a commotion. I sprung to my hooves to investigate what the concern was all about. What I learned was very grave indeed. My sister Rosebud had returned with her scouting patrol party and was pacing around with uncertainty. The Calling Bell rung out as people scuttled to and fro from their homes. A Council had been called!"
+                text: "Что ж... не так давно меня разбудили звуки неразберихи. Я вскочила, чтобы разузнать, в чём причина. И она оказалась весьма печальной. Моя сестра Роузбад и её отряд вернулись из дозора и выглядели растерянными. Под звон Колокола Призыва народ метался туда-сюда между жилищами. Созывался Совет!"
             }, {
-                text: "The leaders and lords of the creatures of the forest all gathered together under the boughs of Ahmrilas. My mother, the Queen, was at the head of the circle of Lords. My sisters and I surrounded her. Okairnon the Horned, Lord of Owls spoke out. His great bellowing voice rung out deep and clear."
+                text: "Вожди и повелители лесных обитателей собрались под ветвями Амриласа. Моя мать, Королева, была во главе круга Повелителей. Подле неё была я и мои сёстры. Окайрнон Рогатый, Повелитель Сов, держал речь. Его басовитый голос звучал глубоко и чисто."
             }, {
                 image: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom02.jpg"
             }, {
-                text: '"It has been brought to attention that our beloved Silverdeep forest is in grave danger! Our owl eyes miss nothing: we peer endlessly, from dusk till dawn and till dusk again, surveying our sacred land. And in our endless vigil, our scouts witnessed a sight that beggars belief!"'
+                text: '«Нам стало известно, что наш любимый лес Серебряной Глуби в смертельной опасности! От наших совиных глаз ничего не ускользнёт: неустанно мы наблюдаем, от заката до рассвета и вновь до заката, за нашей священной землёй. И дозорные нашего вечного бдения узрели невероятнейшее!»'
             }, {
-                text: "There was a collective gasp among the forest Lords. Lord Okairnon cleared his throat loudly and continued."
+                text: "Все лесные Повелители разом затаили дыхание. Владыка Окайрнон громко прокашлялся и продолжал."
             }, {
-                text: '"Even I must admit… we were such fools to not have taken Mystic Wurmwood’s warnings seriously. The Twisted Terror has returned! The Wood Blight is very real and it has made its way into Silverdeep. I beheld its horror with my own eyes, and it just as awful as Wurmwood had described. Black roots sprouting from the ground, linking together like a parasitic web. Any living thing, flora or fauna, that touches the accursed roots has its life force sucked out as it withers away! It seems to grow each passing light cycle. Ruin is upon us!"'
+                text: '«Даже я признаю… мы так сглупили, не приняв предупреждения Таинственного Змеедрева всерьёз. Вселяющий Ужас вернулся! Древесная Хворь реальна, и уже проделала путь до Серебряной Глуби. Я лицезрел этот ужас своими глазами, он точно такой, каким его описывал Змеедрев. Чёрные корни, вьющиеся из-под земли, переплетённые, словно стая паразитов. У всякой живой сущности, будь то животное или растение, что прикоснётся к этим проклятым корням, будет высосана и навсегда иссякнет жизненная сила! Зараза растёт с каждым световым днём. Разрушение подступается к нам!»'
             }, {
-                text: 'The Great Owl bowed and shook his head in horror. The other lords broke out in a riot of proclamations and lamentations. Agnius the Badgerlord pounded his massive fists into the ground causing the earth to shake. "Order! We must have Order!", he shouted.'
+                text: 'Великий Совух преклонил и потряс голову в страхе. Остальные владыки посрывались с мест пламенными криками отчаяния и печали. Агниус Повелитель Барсуков одним ударом своих могучих кулаков сотряс землю вокруг. «К Порядку! Соблюдайте Порядок!», - прокричал он.'
             }, {
-                text: 'Valika the Snake Mother hissed in agreement. "Yesss sssurely our Queen will make sssense of this chaosss." My mother the Queen nodded solemnly and rose to her full height. All of the creatures drew silent as she spoke. Her voice was a crisp as autumn and as strong as oak.'
+                text: 'Валика, Змеиная Мать, прошипела в согласии: «Конешшшно нашшша Королева усссмирит этот хаоссс». Моя мать, Королева, с царским достоинством кивнула собравшимся и встала во весь рост. Все умолкли, пока она говорила. Её голос был освежающим, словно осень, и сильным, как дуб.'
             }, {
-                text: '"My lords, these are disturbing tidings and I do know things look very bleak. If we do not find a way to stop this Thorn and heal our cursed land, the very forest of Silverdeep will surely wither away and will be only remembered through tales and fables."'
+                text: '«Владыки, известия весьма пугающие, и всё выглядит очень мрачно. Если мы не найдём способ остановить этого Торна и излечить проклятие на наших землях, сам лес Серебряной Глуби исчезнет с лица земли, и вспоминать о нём будут только в сказках и былинах».'
             }, {
-                text: "The creatures shuddered at this notion."
+                text: "Лесные обитатели содрогнулись от сказанного."
             }, {
-                text: '"We must find a way to halt this disease or it might swallow not only our forest home but all good that lives on this Earth. But halting this scourge is beyond our knowledge. That is why we must send one of our own out to the world beyond the forest. There must be someone there who still remembers the songs of the dryads of old, who still knows how to cure our land and fell this cursed Thorn! Who among us is brave enough to leave the forest behind, to go to the cities of men to find the cure to this blight?"'
+                text: '«Мы должны найти способ остановить заразу, иначе она поглотит не только наш дом, лес, но и все прекрасные жизни на этой Планете. Но мы не ведаем, как остановить эту плеть. Посему мы должны отправить одного из нас в мир за лесом. Там должен быть кто-то, кто помнит старинные песни дриад, кто знает, как излечить нашу землю и одолеть проклятого Торна! Кто из нас достаточно смел, чтобы оставить лес, пойти по городам людей в поисках лекарства от этой Хвори?»'
             }, {
-                text: "I looked around at my fellow sisters and the great Lords of the Forest. They chattered and spoke among themselves but no one volunteered to leave. Could I blame them? None of us had ever left Silverdeep before. This was our home. Our refuge. What would await us beyond our borders?"
+                text: "Я окинула взглядом своих сестёр и великих Владык Леса. Они переговаривались меж собою, но никто не вызывался добровольцем. Могла ли я их винить? Никто из нас не покидал Серебряной Глуби раньше. Это был наш дом. Наше убежище. Что могло ожидать нас по ту сторону его границ?"
             }, {
-                text: "I was horrified at the possibility that everything that I’d ever known and ever loved could be destroyed by a creature we all believed to be nothing more than a myth. I could not let that all be taken away. To see Ahmrilas shriveled and withered to a husk. I would not let that happen!"
+                text: "Я была в ужасе от возможности, что всё, что я когда-либо знала и любила, может быть уничтожено тварью из наших доселе былин. Я не могла позволить забрать это у меня. Видеть, как Амрилас иссыхает и корчится, превращаясь в хворост? Не позволю!"
             }, {
-                text: 'I leaped onto a nearby boulder and proclaimed, "I will go. We have heard the tales of the Arenas, of how the greatest warriors, sorcerers, and healers from all over the world gather there. If there is a way to fight this disease that encroaches on our home, surely it can be learned there. I will train hard and soak up all the wisdom that I can from the Champions there. I promise you, my friends, I will return with the knowledge of how to defeat this Thorn and push back the oncoming plague. I swear it by the Moon and the Earth and the Golden Skygem!"'
+                text: 'Я вскочила на валун поблизости и заявила: «Я пойду. Мы слышали сказания об Аренах, о том, как величайшие воины, колдуны и целители со всего мира собираются там. Если и есть способ побороть хворь, что вторгается в наш дом, то где, если не там, узнать его. Я буду с усердием упражняться и обрету всю мудрость тамошних Чемпионов. Обещаю вам, мои друзья, я вернусь со знанием о том, как победить этого Торна и отвадить чуму. Клянусь Луной и Землёю и Золотым Небоцветом!»'
             }, {
                 image: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom03.jpg"
             }, {
-                text: 'Mother, the Queen of Silverdeep, looked up at me, tears glittering in her eyes. She smiled at me and nodded knowingly. "My dearest Blossom. I knew that it would be you. You are special, my little one, and your heart is full of courage. Go then, and know that you carry the love of Silverdeep with you."'
+                text: 'Мать, Королева Серебряной Глуби, взглянула на меня, и слёзы засияли в её глазах. Она улыбнулась мне и кивнула с пониманием. «Моя милая Блоссом. Я знала, что добровольцем станешь ты. Ты особенная, моя малютка, и сердце твоё полно отваги. Иди же, и знай, что в тебе живёт любовь Серебряной Глуби».'
             }, {
-                text: "And with that, I gathered my belongings and set out with Maxwell on this journey to save my home. Though the trials ahead will be hard and unforgiving, I will not falter. I am Blossom, daughter of the Queen of Silverdeep, and nothing will stand in my way to save my home."
+                text: "И так я собрала вещи и отправилась вместе с Максвеллом в путешествие по спасению моего дома. И пусть испытания впереди будут тяжелы и беспощадны, я не дрогну. Я - Блоссом, дочь Королевы Серебряной Глуби, и ничто не встанет на моём пути, я спасу мой дом."
             }]
             , Q = a(176)
             , J = [{
