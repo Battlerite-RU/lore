@@ -160,7 +160,7 @@
                                     , opacity: "1"
                                 }
                                 , onClick: this.props.isMobile ? null : function () {
-                                    return e.props.history.push("/lore/map")
+                                    return e.props.history.push("/lore/map/")
                                 }
                             }, this.props.isMobile ? "Недоступно на телефоне" : "Открыть карту")))))
                             , o = n.a.createElement("section", {
@@ -219,7 +219,7 @@
                                     , opacity: "1"
                                 }
                                 , onClick: function () {
-                                    return e.props.history.push("/lore/stories")
+                                    return e.props.history.push("/lore/stories/")
                                 }
                             }, "Читать"))))));
                         return n.a.createElement(w.a, {
@@ -2301,7 +2301,7 @@
                                 }
                                 , image: "https://battlerite-ru.github.io/lore/images/home_en.png"
                                 , tooltip: "Официальный сайт [EN]"
-                                , paths: ["/lore/", "/lore/map", "/lore/stories"]
+                                , paths: ["/lore/", "/lore/map/", "/lore/stories/"]
                                 , onMobile: 1
                             }, {
                                 type: "top"
@@ -2311,27 +2311,27 @@
                                 }
                                 , image: "https://battlerite-ru.github.io/lore/images/home.png"
                                 , tooltip: "Домашняя страница"
-                                , paths: ["/lore/", "/lore/map", "/lore/stories"]
+                                , paths: ["/lore/", "/lore/map/", "/lore/stories/"]
                                 , onMobile: !0
                             }, {
                                 type: "top"
                                 , alt: "map-link"
                                 , action: function () {
-                                    e.props.history.push("/lore/map")
+                                    e.props.history.push("/lore/map/")
                                 }
                                 , image: "https://battlerite-ru.github.io/lore/images/map.png"
                                 , tooltip: "Карта мира"
-                                , paths: ["/lore/", "/lore/map", "/lore/stories"]
+                                , paths: ["/lore/", "/lore/map/", "/lore/stories/"]
                                 , onMobile: !1
                             }, {
                                 type: "top"
                                 , alt: "stories-link"
                                 , action: function () {
-                                    e.props.history.push("/lore/stories")
+                                    e.props.history.push("/lore/stories/")
                                 }
                                 , image: "https://battlerite-ru.github.io/lore/images/stories.png"
                                 , tooltip: "Истории"
-                                , paths: ["/lore/", "/lore/map", "/lore/stories"]
+                                , paths: ["/lore/", "/lore/map/", "/lore/stories/"]
                                 , onMobile: !0
                             }, {
                                 type: "bottom"
@@ -2339,7 +2339,7 @@
                                 , action: this.props.toggleSounds
                                 , image: this.props.isMuted ? "https://battlerite-ru.github.io/lore/images/sound_muted.png" : "https://battlerite-ru.github.io/lore/images/sound_unmuted.png"
                                 , tooltip: this.props.isMuted ? "Включить звук" : "Приглушить"
-                                , paths: ["/lore/map", "/lore/stories"]
+                                , paths: ["/lore/map/", "/lore/stories/"]
                                 , onMobile: !0
                             }]
                             , a = t.filter(function (e) {
@@ -2405,7 +2405,7 @@
                 }, {
                     key: "render"
                     , value: function () {
-                        return ("/lore/map" !== this.props.history.location.pathname && "/lore/stories" !== this.props.history.location.pathname && "/lore/" !== this.props.history.location.pathname || this.props.isMobile && "/lore/map" === this.props.history.location.pathname) && this.props.history.push("/lore/"), n.a.createElement("div", null)
+                        return ("/lore/map/" !== this.props.history.location.pathname && "/lore/stories/" !== this.props.history.location.pathname && "/lore/" !== this.props.history.location.pathname || this.props.isMobile && "/lore/map/" === this.props.history.location.pathname) && this.props.history.push("/lore/"), n.a.createElement("div", null)
                     }
                 }]), t
             }(o.Component)
@@ -2540,7 +2540,7 @@
                                 })
                             }
                         }), n.a.createElement(u.a, {
-                            path: "/lore/map"
+                            path: "/lore/map/"
                             , exact: !0
                             , component: function () {
                                 return n.a.createElement(ce.Consumer, null, function (t) {
@@ -2560,7 +2560,7 @@
                                 })
                             }
                         }), n.a.createElement(u.a, {
-                            path: "/lore/stories"
+                            path: "/lore/stories/"
                             , exact: !0
                             , component: function () {
                                 return n.a.createElement(ce.Consumer, null, function (e) {
