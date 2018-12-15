@@ -2383,14 +2383,14 @@
                             className: "pity-overlay"
                         }, n.a.createElement("div", {
                             className: "pity-content"
-                        }, n.a.createElement("div", null, n.a.createElement("h1", null, "Sorry!"), n.a.createElement("h2", null, "We dont support your browser.")), n.a.createElement("div", null, n.a.createElement("h3", null, "We currently support:"), this.props.supportedBrowsers.map(function (e, t) {
+                        }, n.a.createElement("div", null, n.a.createElement("h1", null, "Извините!"), n.a.createElement("h2", null, "Ваш браузер не поддерживается.")), n.a.createElement("div", null, n.a.createElement("h3", null, "На данный момент поддерживаются: "), this.props.supportedBrowsers.map(function (e, t) {
                             return n.a.createElement("div", {
                                 key: t
                             }, e)
                         })), n.a.createElement("div", {
                             className: "fancyButton"
                             , onClick: this.props.ignoreWarning
-                        }, "Proceed Anyway")))))
+                        }, "Продолжить в любом случае...")))))
                     }
                 }]), t
             }(o.Component))
