@@ -1038,3 +1038,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.pity-content .fancyButton {
+    height: 40px !important;
+}
