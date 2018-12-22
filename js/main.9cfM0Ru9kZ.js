@@ -2087,7 +2087,7 @@
                 , _id: 10
             }, {
                 content: []
-                , champion: "alysia"
+                , champion: "???"
                 , cardImage: "https://battlerite-ru.github.io/lore/images/stories/unknown/THESE_WOUNNNNDS_THEYY_WILLL_NOT_HEAAAALLLLLLLLLL.jpg"
                 , date: "2019-01-02"
                 , status: "preview"
