@@ -1,6 +1,5 @@
 # Lore
-Russian translation of BattleRite Lore!
-
+Russian translation of Battlerite Lore!
 
 [Open RU traslation](https://battlerite-ru.github.io/lore/)
 
