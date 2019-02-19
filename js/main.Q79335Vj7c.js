@@ -2347,6 +2347,7 @@
                 }, {
                     content: lucieLore,
                     champion: "lucie",
+					pinPreviewImage:"http://192.168.5.101:1234/lore/images/stories/lucie/preview.png",
                     cardImage: "http://192.168.5.101:1234/lore/images/stories/lucie/asdanfkjnweljbglsdfbgsel.jpg",
                     date: "2019-01-23",
                     status: "featured",
