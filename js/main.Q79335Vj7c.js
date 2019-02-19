@@ -243,15 +243,15 @@
                 b = a(171),
                 v = a.n(b),
                 k = {
-                    hover: new Audio("https://battlerite-ru.github.io/lore/sounds/UI_Hover_v3_3.wav"),
-                    click: new Audio("https://battlerite-ru.github.io/lore/sounds/UI_Hover_v3_1.wav"),
-                    open: new Audio("https://battlerite-ru.github.io/lore/sounds/UI_HoverBRCard.wav"),
-                    close: new Audio("https://battlerite-ru.github.io/lore/sounds/UI_HoverBRCardReversed.wav"),
-                    pearl1: new Audio("https://battlerite-ru.github.io/lore/sounds/dont.wav"),
-                    pearl2: new Audio("https://battlerite-ru.github.io/lore/sounds/worry.wav"),
-                    pearl3: new Audio("https://battlerite-ru.github.io/lore/sounds/im.wav"),
-                    pearl4: new Audio("https://battlerite-ru.github.io/lore/sounds/here.wav"),
-                    pearl5: new Audio("https://battlerite-ru.github.io/lore/sounds/now.wav")
+                    hover: new Audio("http://192.168.5.101:1234/lore/sounds/UI_Hover_v3_3.wav"),
+                    click: new Audio("http://192.168.5.101:1234/lore/sounds/UI_Hover_v3_1.wav"),
+                    open: new Audio("http://192.168.5.101:1234/lore/sounds/UI_HoverBRCard.wav"),
+                    close: new Audio("http://192.168.5.101:1234/lore/sounds/UI_HoverBRCardReversed.wav"),
+                    pearl1: new Audio("http://192.168.5.101:1234/lore/sounds/dont.wav"),
+                    pearl2: new Audio("http://192.168.5.101:1234/lore/sounds/worry.wav"),
+                    pearl3: new Audio("http://192.168.5.101:1234/lore/sounds/im.wav"),
+                    pearl4: new Audio("http://192.168.5.101:1234/lore/sounds/here.wav"),
+                    pearl5: new Audio("http://192.168.5.101:1234/lore/sounds/now.wav")
                 };
             Object.keys(k)
                 .forEach(function (e) {
@@ -310,7 +310,7 @@
                                 showSmallModal: this.props.showSmallModal,
                                 x: this.props.x,
                                 y: this.props.y,
-                                pinUrl: "https://battlerite-ru.github.io/lore/images/br_map_pin.png"
+                                pinUrl: "http://192.168.5.101:1234/lore/images/br_map_pin.png"
                             })), this.props.arena && (s = this.props.arena.artwork, i = n.a.createElement(E, {
                                 displayArtwork: o,
                                 soundFuncs: this.soundFuncs,
@@ -319,7 +319,7 @@
                                 showSmallModal: this.props.showSmallModal,
                                 x: this.props.x,
                                 y: this.props.y,
-                                pinUrl: "https://battlerite-ru.github.io/lore/images/arena_pin_small.png"
+                                pinUrl: "http://192.168.5.101:1234/lore/images/arena_pin_small.png"
                             })), this.props.championContent && (i = n.a.createElement(j, {
                                 displayArtwork: o,
                                 soundFuncs: this.soundFuncs,
@@ -379,7 +379,7 @@
                             top: "".concat(o - (228 + T + 50), "px"),
                             width: "".concat(t ? 380 : 273, "px"),
                             height: "".concat(228, "px"),
-                            backgroundImage: t ? 'url("https://battlerite-ru.github.io/lore/images/Location.png")' : 'url("https://battlerite-ru.github.io/lore/images/smolBox.png")'
+                            backgroundImage: t ? 'url("http://192.168.5.101:1234/lore/images/Location.png")' : 'url("http://192.168.5.101:1234/lore/images/smolBox.png")'
                         } : {
                             position: "absolute",
                             overflow: "hidden",
@@ -402,7 +402,7 @@
                         className: "smallModalChampions"
                     }, n.a.createElement("h4", null, "Чемпионы"), r.map(function (e, t) {
                         return n.a.createElement("img", {
-                            src: "https://battlerite-ru.github.io/lore/images/portraits/".concat(e.name, ".png"),
+                            src: "http://192.168.5.101:1234/lore/images/portraits/".concat(e.name, ".png"),
                             alt: e.name,
                             draggable: 0,
                             key: t,
@@ -431,7 +431,7 @@
                         },
                         onClick: s.click
                     }, n.a.createElement("img", {
-                        src: "https://battlerite-ru.github.io/lore/images/portraits/".concat(i.name, ".png"),
+                        src: "http://192.168.5.101:1234/lore/images/portraits/".concat(i.name, ".png"),
                         draggable: "false",
                         alt: "pin",
                         style: {
@@ -1002,7 +1002,7 @@
                                 className: "blocks"
                             }, s, " "), n.a.createElement("img", {
                                 className: "story_footer",
-                                src: "https://battlerite-ru.github.io/lore/images/br_story_footer.png",
+                                src: "http://192.168.5.101:1234/lore/images/br_story_footer.png",
                                 alt: "fancy_footer",
                                 draggable: 0
                             })), this.props.displaySettings ? n.a.createElement(F, {
@@ -1026,14 +1026,14 @@
                 }, {
                     name: "Болото Злобы",
                     text: "Место, куда немногие осмеливаются направиться, и откуда возвращаются единицы. Дремучая топь на южном побережье Га’Таманга на бумаге является частью Империи, но власть императора ничего здесь не значит. Это обитель всех видов смертельных опасностей, от блуждающих во мраке хищников до плотоядных растений и дикарей-людоедов, а в древних гробницах и руинах обитают ещё более зловещие ужасы.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Swamp_of_Malevolence_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Swamp_of_Malevolence_02.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Swamp_of_Malevolence_03.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Swamp_of_Malevolence_04.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Swamp_of_Malevolence_05.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Swamp_of_Malevolence_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/Swamp_of_Malevolence_02.jpg", "http://192.168.5.101:1234/lore/images/artwork/Swamp_of_Malevolence_03.jpg", "http://192.168.5.101:1234/lore/images/artwork/Swamp_of_Malevolence_04.jpg", "http://192.168.5.101:1234/lore/images/artwork/Swamp_of_Malevolence_05.jpg"]
                 }, {
                     name: "Королевство Куна",
                     text: "Могущественное Королевство Куны лежит далеко на востоке, за Восточной пустыней и Лесом Теней. Это плодородная земля заливных лугов, зелёных холмов и густых лесов. Из-за своей удалённости, Куна до недавних пор почти не контактировала с западными землями. Но воздвижение арены Сада Дракона и открытие Восточного Пути сделало две части мира ближе друг к другу. Куной правит Король-Дракон с советниками из ближних и дальних земель."
                 }, {
                     name: "Отагур",
                     text: "Горная область к северу от Га'Таманга – обитель жестокой и зловещей цивилизации, что воздаёт почести тёмным богам при помощи магии крови и жертвоприношений. Отдалённая, труднодоступная земля с её подземными городами, высеченными в горной породе, служат неприступной крепостью правящим Жрецам Крови, что замышляют заговоры для расширения своего влияния.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Othagur_02.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Othagur_02.jpg"]
                 }, {
                     name: "Восточная пустыня",
                     text: "Восточная пустыня лежит на громадном плоскогорье к югу от Дахарина. За исключением плодородного южного побережья, это безжизненная пустыня с лабиринтами из остроконечных скал. Она кишит чудовищами, что могут проглотить человека целиком, песчаными бурями, что могут стесать до мяса кожу несчастного скитальца, если его, конечно, прежде не прикончит невыносимая жара и перехватывающий дыхание ветер. Однако не смотря на это, пустыня служит пристанищем для некоторых варварских племён, а в немногих более гостеприимных местах даже расположились города и цивилизация."
@@ -1049,11 +1049,11 @@
                 }, {
                     name: "Гора Серебряный хребет",
                     text: "На самом западном краю полуострова за Анианскими Степями возвышаются покрытые снегом вершины горы Серебряный Хребет, сверкая, будто серебро на солнце. В этом месте обитают могущественные силы, где размывается граница с миром духов, и законы природы уже не так неумолимы. На склонах горы обитает миролюбивый народ Диом в гармонии с духами и зверями. Сверкающую своими вершинами гору опоясывает у подножия лес Серебряной Глуби. О нём ходит множество легенд, и говорится в них как о чудесных волшебных созданиях, так и о непостижимых ужасах.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Silverridge_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Silverridge_02.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Silverridge_03.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Silverridge_04.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Silverridge_05.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Silverridge_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/Silverridge_02.jpg", "http://192.168.5.101:1234/lore/images/artwork/Silverridge_03.jpg", "http://192.168.5.101:1234/lore/images/artwork/Silverridge_04.jpg", "http://192.168.5.101:1234/lore/images/artwork/Silverridge_05.jpg"]
                 }, {
                     name: "Монастырь Резонанса",
                     text: "Многие сотни церквей и аббатств разбросаны по всему Дахарину, они сами по себе довольно впечатляющи, но ни одно из них и близко не сравнится с величественным Монастырём Резонанса. Именно отсюда исходит могущество религии Симфонии, отсюда вершат свои деяния её жрецы и паладины и другие менее публичные её последователи.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Monastery_of_Resonance_01.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Monastery_of_Resonance_01.jpg"]
                 }, {
                     name: "Дур Кутур",
                     text: "Подземная столица Отагура соткана из бесконечных тоннелей, проделанных в горе, будто в гнезде термитов. Тёмные секреты, таящиеся под покровом глубоких расщелин, известны только лишь местному правящему совету, известному как Братство Желчи."
@@ -1063,14 +1063,14 @@
                 }, {
                     name: "Горы На'Гол",
                     text: "Громадный северный горный хребет На’Гол протянулся от земель Га’Таманг на западе и далеко за восточные пределы известного мира. Горы служат домом загадочному народу Тиоко, что живут в подземельях глубоко в толще гор.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/NaGol_Mountains_01.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/NaGol_Mountains_01.jpg"]
                 }, {
                     name: "Фаран Гол",
                     text: "Фаран Гол был городом в самой западной точке гор На'Гол. Был знаменит своей Академией Штормов, где волшебники обучались управлению силами Шторма и Грома. Был уничтожен до основания в ходе огромной катастрофы, приведшей к Глубокой Ночи, и ныне лишь руины служат свидетелями его былого величия."
                 }, {
                     name: "Древние земли",
                     text: "Далеко на востоке лежат забытые руины храмов и святилищ древних героев и богов. Они старше любой нынешней цивилизации, и их истинное предназначение давным-давно было утеряно в тумане истории.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Ancient_Grounds_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Ancient_Grounds_02.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Ancient_Grounds_03.jpg", "https://battlerite-ru.github.io/lore/images/artwork/Ancient_Grounds_04.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Ancient_Grounds_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/Ancient_Grounds_02.jpg", "http://192.168.5.101:1234/lore/images/artwork/Ancient_Grounds_03.jpg", "http://192.168.5.101:1234/lore/images/artwork/Ancient_Grounds_04.jpg"]
                 }, {
                     name: "Внешние королевства",
                     text: "Неисследованные Внешние Королевства лежат за Древними Землями. Очень немногие знают об этих местах, но слухов и легенд о них предостаточно."
@@ -1087,23 +1087,23 @@
                 D = [{
                     name: "Чернокаменная арена",
                     text: "Высеченная в горах в самом пекле горнила Отагура. В древние времена была местом жертвоприношений, но сейчас служит ареной. Энергия былого наследия делает это место весьма подходящим для сражений. Находится под контролем Братства Ночи.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Blackstone_Arena.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_02.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_03.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_04.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_06.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_08.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_09.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_10.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_11.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_13.jpg", "https://battlerite-ru.github.io/lore/images/artwork/BlackstoneArena_14.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Blackstone_Arena.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_02.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_03.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_04.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_06.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_08.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_09.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_10.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_11.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_13.jpg", "http://192.168.5.101:1234/lore/images/artwork/BlackstoneArena_14.jpg"]
                 }, {
                     name: "Храм Ормана",
                     text: "Арена, расположенная в диких лесах Серебрянной Глуби. Она построена в саду заброшенного храма, и находится под защитой Дриад. Ранее затерянная в лесу, сегодня она блистает зрелищем сражений на арене и служит оазисом для путешественников.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Orman_Temple_Arena.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_02.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_03.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_04.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_05.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_06.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_08.jpg", "https://battlerite-ru.github.io/lore/images/artwork/OrmanTemple_day_09.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Orman_Temple_Arena.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_02.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_03.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_04.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_05.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_06.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_08.jpg", "http://192.168.5.101:1234/lore/images/artwork/OrmanTemple_day_09.jpg"]
                 }, {
                     name: "Сад Дракона",
                     text: "Расположен в центре Столицы. Построен нынешним правящим Королём-Драконом в честь двух своих сыновей, и статуи двух принцев украшают здешнюю арену. Это прекрасная и необычайная арена призвана отражать силу и богатство Куны.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/DragonGarden_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/DragonGarden_05.jpg", "https://battlerite-ru.github.io/lore/images/artwork/DragonGarden_07.jpg", "https://battlerite-ru.github.io/lore/images/artwork/DragonGarden_08.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/DragonGarden_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/DragonGarden_05.jpg", "http://192.168.5.101:1234/lore/images/artwork/DragonGarden_07.jpg", "http://192.168.5.101:1234/lore/images/artwork/DragonGarden_08.jpg"]
                 }, {
                     name: "Небесное кольцо",
                     text: "Небесное Кольцо построено на парящем острове на северном побережье Тролоба, неподалёку от столицы. Эта роскошная арена сделана из дорогостоящих материалов. Она окружена сотнями воздушных кораблей, служащих трибунами для толп зрителей. Великолепие этой арены доступно только Королевской Семье, самым состоятельным гражданам и особым гостям. Состязаться на Небесном Кольце – привилегия, а одержать здесь победу – великая честь.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_07.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_08.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_09.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_10.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_11.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_12.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_13.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_15.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_18.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_19.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_20.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_21.jpg", "https://battlerite-ru.github.io/lore/images/artwork/SkyArena_day_23.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_07.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_08.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_09.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_10.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_11.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_12.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_13.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_15.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_18.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_19.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_20.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_21.jpg", "http://192.168.5.101:1234/lore/images/artwork/SkyArena_day_23.jpg"]
                 }, {
                     name: "Гора Араз",
                     text: "Построена на краю Мыса Каал, на слегка более цивилизованном южном побережье. Эта четырёхсотлетняя арена стала жестокой сценой для тысяч павших воинов и местом славы для величайших чемпионов. Ныне это самая большая арена Восточной пустыни, и она привлекает как торговцев, так и зрителей со всего региона.",
-                    artwork: ["https://battlerite-ru.github.io/lore/images/artwork/Mount_Araz_Arena_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_01.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_02.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_03.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_04.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_05.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_06.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_08.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_09.jpg", "https://battlerite-ru.github.io/lore/images/artwork/MountAraz_day_10.jpg"]
+                    artwork: ["http://192.168.5.101:1234/lore/images/artwork/Mount_Araz_Arena_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_01.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_02.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_03.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_04.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_05.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_06.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_08.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_09.jpg", "http://192.168.5.101:1234/lore/images/artwork/MountAraz_day_10.jpg"]
                 }],
                 G = [{
                     x: 1880,
@@ -1309,6 +1309,14 @@
 						color: "white", 
 						textAlign: "center"
 					}
+				}, {
+					x: 1800,
+					y: 1530,
+					champion: "lucie",
+					pinStyle: {
+						color: "white",
+						textAlign: "center"
+					}
 				}].map(function (e) {
                     return e.location = P.find(function (t) {
                         return t.name === e.location
@@ -1325,7 +1333,7 @@
 				}, {
 					text: "Её имя – Фрея. Это сказание о ней."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/freya/pretty_windy.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/freya/pretty_windy.jpg"
 				}, {
 					text: "Фрея закрыла глаза. Горький дурман обжигал её ноздри и заполнял лёгкие. Пещера, в которой она находилась, была темна и холодна. Девушка знала, что этот день наступит. День испытаний. Она была первой в очереди на правление Громовым Племенем."
 				}, {
@@ -1337,7 +1345,7 @@
 				}, {
 					text: "Фрея прокладывала себе путь сквозь эту кошмарную топь, как вдруг огромное нечто показалось вдали. Два громадных жёлтых шара сидели в широкой плоской голове. Фрея сразу признала в этом существе змеиную богиню – Акронис. Фрея крепко сжала свой меч и осторожно приблизилась к огромному духу-змее."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/freya/Freya02.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/freya/Freya02.jpg"
 				}, {
 					text: "Акронис говорила голосом, который был чем-то между хриплым шипением и нежным шёпотом матери ребёнку. Каким-то непостижимым образом он наполнял всё пространство болота: «Огневласая Фрея, ты, как и твои предки до тебя, пришла в мою обитель в поисках обряда правления. Моё испытание не в силе или воинском ремесле, а в смекалке. Если ты разгадаешь мою загадку, то пройдёшь через мой мир в обители моих братьев. Но если не преуспеешь, я стяну плоть с твоих костей и буду переваривать тебя заживо тысячу лет. Ты принимаешь мои условия?»"
 				}, {
@@ -1384,7 +1392,7 @@
 				}, {
 					text: "Фрея на мгновение призадумалась. Она знала, какой трон звал её. Фрея подняла Железную Корону с рунами и надела её на себя."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/freya/Freya03.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/freya/Freya03.jpg"
 				}, {
 					text: "«Неудивительно, что дочь Кьерна выбирает путь Войны. Очень хорошо. Желаешь битвы – получишь её». – дикое карканье Нимогогга раздалось повсюду, и, вдруг, туманы закружились вокруг Фреи, закрывая обзор. Исполинский Ворон воспарил над ней, взмахи его крыльев вызвали вихрь ветра и тумана вокруг неё. И так же внезапно, как и начался, ветер затих и туман рассеялся."
 				}, {
@@ -1392,7 +1400,7 @@
 				}, {
 					text: "Большой тёмный силуэт скользнул в гнетущем мраке. Волосы на шее Фреи встали дыбом, и она отпрыгнула в сторону. Разряд молнии с треском разломил почву на месте, где только что стояла Фрея. Великий дракон вышел из мрака, его глаза и пасть сияли лазурной бурей ярости и энергии. Его голова, увенчанная тремя рогами, и разбросанные по хребту шипы были чёрными, как уголь."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/freya/Freya04.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/freya/Freya04.jpg"
 				}, {
 					text: "Фрея признала в чудище Велтрейка, первого из Призрачных Драконов и их короля, мёртвого уже тысячу лет. Но здесь, в мире снов, он снова жил."
 				}, {
@@ -1406,13 +1414,13 @@
 				}, {
 					text: "«Фрея, знай же, я с тобою всегда. Ты более чем достойна занять моё место. Верь в себя и в наследие, что я оставил. Ты – бушующая буря, так покажи дракону, на что способное твоё пылающее сердце». И с этими словами свет меча угас, а Фрея, воодушевлённая словами её отца, ринулась из своего укрытия и атаковала дракона с боевым кличем на устах. Дракон попытался с размаху достать её, но она была слишком быстра. Она вонзила меч в живот Велтрейка. Дракон взревел, меч ослепительно разгорелся оранжевым и... всё погрузилось в полный мрак."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/freya/Freya5.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/freya/Freya5.jpg"
 				}, {
 					text: "Фрея очнулась в холодной, тёмной, сырой пещере. Она встала и оглянулась вокруг. Её окружили соплеменники, их глаза выражали спокойствие и почтение, они улыбались. Они молчали согласно обычаю. Старейшина деревни прошёл вперёд, поклонился и водрузил Железную Корону, странно похожую на ту из обители Нимогогга, на её голову. Старейшина затем поставил у её ног исписанный рунами и орнаментами сундук."
 				}, {
 					text: "Фрея открыла сундук и нашла в нём чудесное оружие. Золотые молоты-близнецы, превосходно выкованные и украшенные рунами её племени. Фрея прошла три испытания, и так началось её правление. Она улыбнулась, ибо знала, что отец гордился бы ею."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/freya/Freya06.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/freya/Freya06.jpg"
 				}],
                 q = [{
                     title: "Одинокая тень"
@@ -1452,7 +1460,7 @@
 				}, {
 					text: "Здесь я балансирую на грани разума и безумия. Тень среди теней."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ruhkaan/BookOfLoreRuhKaan.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ruhkaan/BookOfLoreRuhKaan.jpg"
 				}, {
 					text: "И тут, неожиданно и необъяснимо, произошло нечто незаурядное. Что-то, что не случалось столетиями. Кто-то вошёл в мою гробницу."
 				}, {
@@ -1498,7 +1506,7 @@
 				}, {
 					text: "Не вспомню момент, когда отец окончательно поддался этому коварному червю, Пестилусу, внедренцу из Отагура, провозгласившему мир между нашими землями. Я лишь знаю, что в один ужасный день отец... перестал быть отцом. Когда-то он был Королём Драконом, несравненным воином, которого любил и боялся каждый в королевстве. Гора раскатистого смеха, с ненасытностью в бою, сравнимой лишь с его аппетитом на пиру. Но я всегда буду помнить ту скользнувшую по лицу Пестилуса улыбку, когда отец изгнал меня из моего единственного дома, глядя на меня глазами, затуманенными порчей. Эта ухмылка ранит глубже тысячи клинков."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/raigon/Raigon01.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/raigon/Raigon01.jpg"
 				}, {
 					text: "Ночная буря будто преследовала меня вихрем из дождя и холода. Того холода, что крадётся сквозь щели доспехов и пробирает до костей. Я опережал своих преследователей больше, чем на полдня. Я был уверен, что Пестилус послал Ангарота-Разбойника выследить и избавиться от меня навеки. Ангарот был известен своей жестокостью, он не отпускал жертв легко."
 				}, {
@@ -1516,7 +1524,7 @@
 				}, {
 					text: "Выйдя наружу, я встретил дюжину отагурских верзил, бледных, высоких и мускулистых, покрытых угольно-чёрным шипованными доспехами. Ангарот был самым рослым среди них, в тёмном изодранном плаще и рогатом шлеме. Его глаза и зубчатый клинок светились отвратительно зеленеющей аурой, порождённой тлетворной чёрной магией Кровавых Жрецов Отагура. С пятью-шестью из них я мог бы справиться, но двенадцать было слишком много даже для воина моих навыков. Я был готов погибнуть в бою, если бы пришлось. Дождь перешёл в ливень."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/raigon/Raigon02.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/raigon/Raigon02.jpg"
 				}, {
 					text: "«На твоём месте я бы вернулся к Пестилусу и сказал, что не смог меня отыскать. Определённо, лучше так, чем не вернуться совсем!» - крикнул я, обнажая меч. Отагурские воины взорвались смехом. По взмаху руки Ангарота они тут же стихли. Затем он направил на меня меч, рассеивая мрак ночи его зелёным свечением. «Ты действительно веришь, что можешь побить меня и одиннадцать жесточайших разбойников Отагура? Один? Ты, должно быть, и вправду дьявольски храбр и безумен. Но это неважно, когда мы с тобой закончим, то, что от тебя осталось, пойдёт на корм свиньям, а ферма сгорит дотла». – Ангарот снова подал знак, и отагурский отряд пронзил ночной воздух боевым кличем, рванув на меня."
 				}, {
@@ -1532,7 +1540,7 @@
 				}, {
 					text: "«Я направлялся домой в Куну, чтобы увидеть твоего отца, и представь моё удивление наткнуться на отагурский отряд так далеко от их проклятой земли. Я последовал за ними, и вот – мы здесь». Я положил руку на его плечо. «Что ж, вы подоспели как раз вовремя. Не думаю, что продержался бы один, – сказал я. – Но я не уверен, что вас радушно примут во Дворце. Пестилус затуманил разум отца. Обернул его против меня. Он... я... был изгнан. Нужно найти способ спасти Короля и освободить Куну»."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/raigon/raigon_shifu.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/raigon/raigon_shifu.jpg"
 				}, {
 					text: "Шифу посмотрел на меня, на его глаза пала тень раздумий. «Райгон, я думаю, что знаю способ вернуть твой дом. Путешествуя по разным землям в своё отсутствие, я нашёл пристанище и работу в боях на Аренах с великими воинами со всей Вердии. Если мы хотим вернуть твой дом, нам понадобится их помощь, ты можешь завоевать расположение этих воителей. Пойдём со мной. Ты – прирождённый воин, Райгон. Покажи свою отвагу на Аренах, и мы вырвем Куну из гнилых лап Пестилуса!»"
 				}, {
@@ -1545,7 +1553,7 @@
 				}, {
 					text: "«Как же ты хорош, чертяка! Эти чернокнижники Зеридиона будут поражены!» – сказал Араду, подмигивая своему отражению. Чернокнижники Зеридиона были не-таким-уж-тайным обществом теневых магов, что каждую неделю собирались пообсуждать последние подлые злодейские веяния в городе Толин, повыделываться своими новейшими демоническими призывами, и, конечно, посмаковать линейку сыров отборных, но сильно переоценённых."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ezmo/boi_goin_out_tonight.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ezmo/boi_goin_out_tonight.jpg"
 				}, {
 					text: "Применение чёрной магии и демонических знаний было запрещено в Толине, однако чернокнижникам удавалось увиливать от законов и охотников на магов, изменяя места еженедельных встреч и скрывая их магией иллюзий."
 				}, {
@@ -1585,7 +1593,7 @@
 				}, {
 					text: "Араду уже был поднят вверх на три фута, когда торнадо обернуло всё его тело, как будто сотни призрачных нитей связали вокруг него гигантский носок. Внезапным рывком вперёд Араду был проброшен прямо сквозь стену в потайную комнату за ней. Он оказался в том, что, похоже, было тайными личными комнатами Великого Чародея Дор’Хазана."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ezmo/boi_got_dem_anime_eyes.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ezmo/boi_got_dem_anime_eyes.jpg"
 				}, {
 					text: "Стены были уставлены бесчисленными полками с пыльными книгами. Комната была слабо освещена старой люстрой из костей того, что однажды было драконом, с серебряными свечами, горящими жутким зелёным пламенем. Дорогие алхимические и чародейские принадлежности лежали по углам."
 				}, {
@@ -1613,7 +1621,7 @@
 				}, {
 					text: "«Что ж, я, как видишь, чёрт. Меня зовут Эзмо. Что я делаю? Ну, это довольно общий вопрос, не так ли? Правильным вопросом было бы: “Что Эзмо может сделать для тебя?”». – Эзмо улыбнулся своей широченной улыбкой во всё лицо, как говорится, «до ушей»."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ezmo/nostrils_or_eyes_who_knows.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ezmo/nostrils_or_eyes_who_knows.jpg"
 				}, {
 					text: "Араду на секунду задумался и затем совершил ещё одну критическую ошибку. Он не задал вопроса: «Ну, ты довольно мал и не очень-то пугаешь. Не уверен, что ты вообще можешь быть полезен». Рот Эзмо изобразил озлобленность: «Тогда знай, что мой хозяин сейчас – сам Великий Демон Мал’Контентус, и, раз уж ты в комнате у Великого Чародея Дор’Хазана, уверен, ты знаешь, что Мал’Контентус служит Дор’Хазану». Араду нетерпеливо кивнул: «Да-да, я знаю всё это. Ближе к делу, чертёнок!»."
 				}, {
@@ -1639,13 +1647,13 @@
                 }, {
 					text: "Глубоко в самом сердце гор На’Гол, за их холодным гранитом, ниже бездонных шахт Анродора, живёт первородное негаснущее пламя."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ashka/Ashka01.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ashka/Ashka01.jpg"
 				}, {
 					text: "Этот вечный огонь существовал со времён сотворения, и, говорят, у него есть разум, воля и своё предназначение. Народ Тиоко сделал сердце горы своим домом и поклонялся тому пламени с незапамятных времён. Они дали имя бессмертному огню – Живой Кров."
 				}, {
 					text: "Отделённый от остального мира, народ Тиоко живёт традициями и обычаями. По достижении зрелости, соплеменнику даруется особая маска, созданная Древним Поджигателем, первым из укротителей огня. Нет двух одинаковых масок, все они уникальны. С этого дня маска никогда не снимается, лицо юного Тиоко предаётся забвению, и узнают его лишь по маске."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ashka/Ashka03.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ashka/Ashka03.jpg"
 				}, {
 					text: "Ношение народом Тиоко таких масок – воздаяние почестей Живому Крову и способ воссоздать его образ. Никто из живущих не видел Тиоко без маски и, возможно, никогда не увидит."
 				}, {
@@ -1653,7 +1661,7 @@
 				}, {
 					text: "Золотые глаза очень редки среди Тиоко, говорят, что это благословение самого Живого Крова. Они называют их «Взор Крова». Пошла молва об избранном самим Кровом, и соплеменники стали почитать Ашку."
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ashka/Ashka02.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ashka/Ashka02.jpg"
 				}, {
 					text: "Всё шло хорошо до дня наступления совершеннолетия, когда юный Ашка должен был унаследовать способности поджигателя от Живого Крова и присоединиться к друзьям и семье в благоустройстве горы. Но произошло нечто другое."
 				}, {
@@ -1686,7 +1694,7 @@
 						color: "red"
 					}
 				}, {
-					image: "https://battlerite-ru.github.io/lore/images/stories/ashka/cute_boi.jpg"
+					image: "http://192.168.5.101:1234/lore/images/stories/ashka/cute_boi.jpg"
 				}],
                 X = [{
                     title: "Покидая дом - история Блоссом"
@@ -1709,7 +1717,7 @@
 			}, {
 				text: "Я достала несколько желудей и листьев из своей сумки со снадобьями, данными мне милым Амриласом. Я аккуратно выпутала птичку из ветвей Маргаритки и положила на мягкую траву. Я растолкла жёлуди и листья в кашицу и мягко покрыла смесью его раненое крыло. Влага из листьев среагировала с желудями и затвердела, защищая рану от внешних инфекций."
 			}, {
-				image: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom01.jpg"
+				image: "http://192.168.5.101:1234/lore/images/stories/blossom/Blossom01.jpg"
 			}, {
 				text: "Я прижала странную зелёную птицу поближе к груди, чтобы нелёгкая дорога назад не прошла для раненой в сильной тряске. Она не противилась и не издала ни единого писка и, к тому же, скоро уснула."
 			}, {
@@ -1725,7 +1733,7 @@
 			}, {
 				text: "Вожди и повелители лесных обитателей собрались под ветвями Амриласа. Моя мать, Королева, была во главе круга Повелителей. Подле неё была я и мои сёстры. Окайрнон Рогатый, повелитель сов, держал речь. Его басовитый голос звучал глубоко и чисто:"
 			}, {
-				image: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom02.jpg"
+				image: "http://192.168.5.101:1234/lore/images/stories/blossom/Blossom02.jpg"
 			}, {
 				text: "«Нам стало известно, что наш любимый лес Серебряной Глуби в смертельной опасности! От наших совиных глаз ничего не ускользнёт: неустанно мы наблюдаем, от заката до рассвета и вновь до заката, за нашей священной землёй. И дозорные нашего вечного бдения узрели невероятнейшее!»"
 			}, {
@@ -1749,7 +1757,7 @@
 			}, {
 				text: "Я вскочила на валун поблизости и заявила: «Я пойду. Мы слышали сказания об Аренах, о том, как величайшие воины, колдуны и целители со всего мира собираются там. Если и есть способ побороть хворь, что вторгается в наш дом, то где, если не там, узнать его. Я буду с усердием упражняться и обрету всю мудрость тамошних Чемпионов. Обещаю вам, мои друзья, я вернусь со знанием о том, как победить этого Торна и отвадить чуму. Клянусь Луной и Землёю и Золотым Небоцветом!»"
 			}, {
-				image: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom03.jpg"
+				image: "http://192.168.5.101:1234/lore/images/stories/blossom/Blossom03.jpg"
 			}, {
 				text: "Мать, Королева Серебряной Глуби, взглянула на меня, и слёзы засияли в её глазах. Она улыбнулась мне и кивнула с пониманием: «Моя милая Блоссом. Я знала, что добровольцем станешь ты. Ты особенная, моя малютка, и сердце твоё полно отваги. Иди же, и знай, что в тебе живёт любовь Серебряной Глуби»."
 			}, {
@@ -1772,7 +1780,7 @@
 				}, {
 					text: "Кошка наклонила ко мне голову с любопытством, а я в ответ показал ей язык, красноречиво демонстрируя ненависть ко всем этим мерзким комкам шерсти. Я тут же пожалел о своём жесте, потому что кошка сразу испустила самый дьявольский вой, что я когда-либо слышал. Какой-то сверхъестественный ведьмин будильник."
 				}, {
-					image: 'https://battlerite-ru.github.io/lore/images/stories/croak/boi_got_nice_shadow.jpg'
+					image: 'http://192.168.5.101:1234/lore/images/stories/croak/boi_got_nice_shadow.jpg'
 				}, {
 					text: "Ведьма подпрыгнула, должен заметить, с удивительной ловкостью для старого мешка с костями. В руке её была палочка. Её уставшие жёлтые глаза опустились на клинок в моей руке и, видимо, догадались, что я намеревался сделать. Она зашипела на меня и едва слышно пробормотала какое-то заклинание."
 				}, {
@@ -1788,7 +1796,7 @@
 				}, {
 					text: "Вдруг ведьма вскочила и схватила меня за руку. Её глаза сверкали злобным зелёным огнём. Жгучая боль пронеслась через мою руку и грудь. «Будь ты проклят! Проклятие Маггорота теперь на тебе!» – взвыла ведьма."
 				}, {
-					image: 'https://battlerite-ru.github.io/lore/images/stories/croak/gross.jpg'
+					image: 'http://192.168.5.101:1234/lore/images/stories/croak/gross.jpg'
 				}, {
 					text: "Я выхватил руку и вонзил меч в её сердце. Она мгновенно превратилась в пепел, накрыв меня грязно-серым облаком. Я прокашлялся, забрал эбонитовый кинжал и пустился оттуда наутёк. Моя рука была будто вся в огне, я видел, как чёрно-зелёные вены вздувались на месте, за которое ведьма схватила меня. Это... не означало ничего хорошего."
 				}, {
@@ -1800,7 +1808,7 @@
 				}, {
 					text: "По своему обыкновению, он ухмыльнулся мне с видом всезнайки: «Давай взглянем, что там с тобой стряслось, не стесняйся». Я вздохнул и показал ему свою руку."
 				}, {
-					image: 'https://battlerite-ru.github.io/lore/images/stories/croak/take_a_bath.jpg'
+					image: 'http://192.168.5.101:1234/lore/images/stories/croak/take_a_bath.jpg'
 				}, {
 					text: "«Насколько всё плохо, Рез?» – спросил я. Он нахмурился и цокнул зубами: «Ну, короче, этой рукой ты, похоже, больше пользоваться не будешь. Снимай накидку, посмотрим, насколько далеко зараза разрослась»."
 				}, {
@@ -1860,7 +1868,7 @@
 				}, {
 					text: "Привидение Воид-Аугура затрепетало и произнесло: «Очень хорошо». Внезапно призрак превратился в чёрно-пурпурный газ, окружил меня и проник ко мне в лёгкие через рот. Я кашлял и отчаянно хватал воздух, чувствуя, будто тону во тьме. Я упал на колени. Глаза застлала пелена."
 				}, {
-					image: 'https://battlerite-ru.github.io/lore/images/stories/croak/tfw_smoke_out_ears.jpg'
+					image: 'http://192.168.5.101:1234/lore/images/stories/croak/tfw_smoke_out_ears.jpg'
 				}, {
 					text: "Прежде, чем потерять сознание, я издал звук, который никогда не забуду. Он забурлил в животе и вырвался через рот, сотрясая воздух в ночи..."
 				}, {
@@ -1870,7 +1878,7 @@
                         fontStyle: 'italic'
                     }
                 }, {
-                    image: 'https://battlerite-ru.github.io/lore/images/stories/croak/CROAAAAAAAKING_IN_MY_SKIIIIIIIIIIIIIN.jpg'
+                    image: 'http://192.168.5.101:1234/lore/images/stories/croak/CROAAAAAAAKING_IN_MY_SKIIIIIIIIIIIIIN.jpg'
                 }],
                 pestilusLore = [{
                     title: "Возвышение Отагура"
@@ -1893,7 +1901,7 @@
 				}, {
 					text: "Ангорат-Разбойник первым вкусил крови Тирмока. И до того будучи весьма могучим воином, Ангорат с божественной кровью обратился в гиганта средь людей, дикого, тёмного демона битвы. Он жаждет Ваших приказов."
 				}, {
-					image: 'https://battlerite-ru.github.io/lore/images/stories/pestilus/how_to_make_a_boi.jpg'
+					image: 'http://192.168.5.101:1234/lore/images/stories/pestilus/how_to_make_a_boi.jpg'
 				}, {
 					text: "Но вскоре Отагур совершил величайшее достижение, коим Ваше Превосходительство возгордится куда более. Фаминиус предположил, что если божественная кровь может усиливать обычных людей, то можно попытаться усиливать ею и самих богов."
 				}, {
@@ -1920,7 +1928,7 @@
                 }, {
                     text: '«Ну, раз мои внучата хотят историю, вот им история», - сказал я, почёсывая подбородок и улыбаясь. «Я рассказывал вам о Каменном Перевале?», - малыши глядели на меня широко раскрытыми глазами и покачали головами.'
                 }, {
-                    image: 'https://battlerite-ru.github.io/lore/images/stories/bakko/bakko_and_fam.jpg'
+                    image: 'http://192.168.5.101:1234/lore/images/stories/bakko/bakko_and_fam.jpg'
                 }, {
                     text: '«Давным-давно, когда ваша мама была ещё ребёнком, примерно вдвое старше тебя, Джиллдри, я и правда был воином, но не просто одним из солдат. Я был их командиром, и гордился каждым из тех бравых ребят…».'
                 }, {
@@ -1932,7 +1940,7 @@
                 }, {
                     text: 'Грохот всё усиливался, и я решил разведать обстановку. Всё ещё с куском колбасы во рту, я забрался на смотровую вышку и осмотрел границу. Сотни гигантов мчались на нас с гор. Я взял подзорную трубу, чтобы рассмотреть их получше, пока дожёвывал колбасу. Я понял, что понадобятся все доступные силы, так как увидел саму Ледяную Королеву, парящую над своей армией верхом на снежной метели.'
                 }, {
-                    image: 'https://battlerite-ru.github.io/lore/images/stories/bakko/nice.jpg'
+                    image: 'http://192.168.5.101:1234/lore/images/stories/bakko/nice.jpg'
                 }, {
                     text: 'Я побежал обратно со всех ног и закричал своим людям: «Завтрак окончен, назревает бой. Ледяные Гиганты идут!». Все в спешке проглотили остатки еды и рванули к складам с оружием. Мои топор и щит были уже наготове.'
                 }, {
@@ -1950,7 +1958,7 @@
                 }, {
                     text: 'Прямо возле меня приземлился гигант среди гигантов, его прыжок сотряс землю вокруг. То не был обычный Ледяной Гигант. Он был в два или три раза крупнее всех остальных, в руках зверюга держал по двустороннему топору, мерцающему магическим инеем. Я слышал об этом гиганте-берсерке. Его звали Гормунг Крушитель.'
                 }, {
-                    image: 'https://battlerite-ru.github.io/lore/images/stories/bakko/bakko_and_goliath.jpg'
+                    image: 'http://192.168.5.101:1234/lore/images/stories/bakko/bakko_and_goliath.jpg'
                 }, {
                     text: 'Мой выпад остановила стена из замороженного воздуха, внезапно возникшая передо мной. Мой топор был бесполезен против этого ледяного барьера. Я обернулся и увидел саму Ледяную Королеву, парящую верхом на снежном вихре и совершающую рукой магический жест. Я отскочил от едва не попавшего по мне топора Гормунга. Один точный удар, и я разлетелся бы на окровавленные куски.'
                 }, {
@@ -1972,7 +1980,7 @@
                 }, {
                     text: 'Стена встала подобно лабиринту, скрывая за собой королеву. Я посмотрел вверх в попытке найти её там, щит и топор я держал наготове. Внезапно ледяные снаряды выстрелили из стены. Я пригнулся и отразил, было, их щитом, но некоторые ледяные шипы порезали мне ноги и руки. Конечно, это были всего лишь царапины, но теперь я был внимательнее. Любая ошибка против Королевы могла стать последней.'
                 }, {
-                    image: 'https://battlerite-ru.github.io/lore/images/stories/bakko/bakko4.jpg'
+                    image: 'http://192.168.5.101:1234/lore/images/stories/bakko/bakko4.jpg'
                 }, {
                     text: 'Я напирал, уклоняясь от внезапных ловушек из сосулек и отражая шальные снаряды острых ледышек. Повернув за очередной угол, я оказался в тупике. Нужно было выбираться из этого лабиринта, но как? Она хотела измотать меня, сломить дух.'
                 }, {
@@ -1986,7 +1994,7 @@
                 }, {
                     text: 'Выражение её лица было бесценно. Она беспомощно попыталась закрыться голыми руками, но копьё изо льда пронзило её, превратив её тело в ледышку. У неё даже не было времени крикнуть. С ударом моего топора она разлетелась на тысячи кусочков льда.'
                 }, {
-                    image: 'https://battlerite-ru.github.io/lore/images/stories/bakko/u_did_it.jpg'
+                    image: 'http://192.168.5.101:1234/lore/images/stories/bakko/u_did_it.jpg'
                 }, {
                     text: 'Со смертью Королевы произошло неожиданное. Все оставшиеся гиганты перестали биться. Голубой огонь в их глазах угас, и зрачки приобрели мирный карий цвет, а лица их изобразили полнейшее замешательство. Гиганты простояли ошарашенными пару мгновений, побросали своё оружие и ушли туда, откуда пришли, желая лишь возвратиться домой.'
                 }, {
@@ -2008,7 +2016,7 @@
 					}, {
 						text: "Давным-давно жил-был безымянный охотник. Охотник тот был не чета другим. Всё, чем он жил, было лесами, деревьями, ночлегом без крыши над головой, обедом у костра в одиночестве. Хоть охотник и был из человеческого рода, он этого не желал."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/jumong/strong_independant_boi.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/jumong/strong_independant_boi.jpg'
 					}, {
 						text: "Охотник был брошен людьми задолго до его первых воспоминаний. В его памяти сохранилось человеческое наречие, но лишь изредка пользовался он им. Ему больше по душе приходились звуки петляющего меж деревьев ветра, капель ливня, точащих камень, и хрустящего под ногами валежника. Но пуще всего сердце его трепетало от охоты."
 					}, {
@@ -2020,7 +2028,7 @@
 					}, {
 						text: "Подойдя к телу волка, охотник увидел нечто престранное. Волк не был обычным волком, но чем-то совершенно другим. У существа была волчья морда и пасть, но тело было схоже с человечьим, покрытое серебряной и чёрной шерстью. На шее существа висел золотой медальон с изумрудным камнем, а на голове, переходя в брови зверя, ветвилась корона из чёрного дерева. Из нанесённой охотником раны в плече зверя струилась кровь. Создание заговорило, рычащий голос его был глубоким и низким:"
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/jumong/tis_but_a_flesh_wound.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/jumong/tis_but_a_flesh_wound.jpg'
 					}, {
 						text: "«Ты ступил на мою территорию. Ты охотился на моих подданных. И сейчас ты охотился на самого Звериного Принца. Знаю, я – твой величайший трофей за всю твою жизнь, но есть добыча и побогаче. Пощади, и я отведу тебя к добыче за пределами твоих мечтаний. И ещё я одарю тебя подарком из моей священной сокровищницы. Каков твой ответ, охотник?»"
 					}, {
@@ -2028,7 +2036,7 @@
 					}, {
 						text: "Попав в замок, охотник удивился его опустелости. Замок представлял собой жуткое, довлеющее зрелище с его нависающими чёрными башнями и окнами из красного стекла, и в гробовой тишине это место больше походило на мавзолей. Замок, в котором ранее кипела жизнь, был наполнен мрачной тоской. Охотник спросил: «Где все твои подданные?». Звериный Принц лишь рыкнул на это и ничего не ответил."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/jumong/Jumong03.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/jumong/Jumong03.jpg'
 					}, {
 						text: "Принц провёл охотника вниз по лестнице в тёмный сырой подвал. Охотник потянулся к луку в полной уверенности, что был заманен в ловушку. Звериный Принц зажёг факел и осветил содержимое комнаты перед собой. Это была вместительная сокровищница со всеми видами украшений и прочих безделушек, золота, драгоценных камней размером с сердце, жемчужин с куриное яйцо. В сокровищнице также были артефакты и странные предметы из древности и неизвестного происхождения."
 					}, {
@@ -2040,7 +2048,7 @@
 					}, {
 						text: "Охотник взял Мантию Джумонга и водрузил её себе на плечи. Он тут же ощутил, как его конечности усилились и ожили чувства, будто пелена мрака перед ними рассеялась, и проступил свет. Он мог почувствовать такие запахи, каких никогда прежде не замечал, цвета перед его глазами сплетались в совершенно новую, пёструю картину из ярких красок. И даже воздух он мог попробовать на вкус. Однако с падением оков с его восприятия он ощутил, как сердце его сковало холодным железом."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/jumong/boi_got_new_dreads.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/jumong/boi_got_new_dreads.jpg'
 					}, {
 						text: "«А теперь, Принц Зверей, – прорычал охотник сквозь обновлённые, заострённые зубы, – где та обещанная мне добыча?». Звериный Принц кивнул: «Да-да, я обещал, конечно же. Иди за мной». Принц вывел охотника из замка к входным воротам. «Много-много лет спустя с этого дня появится создание, каких ты ранее не видывал. Это будет отвратительная тварь, но ты поймёшь, что она и есть та добыча, обещанная мною тебе»."
 					}, {
@@ -2057,25 +2065,25 @@
 					}, {
 						text: "Земля становилась всё более безжизненной с каждой пройденной милей. Вскоре из воздуха ушла всякая влажность, сменившись сухой жарой. Живность уменьшалась в числе, но увеличивалась в размере. Громадные, чудовищные ящеры с неуклюжей походкой нехило так пугали, надо сказать. Хвала небесам, они меня не заметили."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/iva/Iva01.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/iva/Iva01.jpg'
 					}, {
 						text: "Всё становилось всё страннее и причудливее по мере моего движения вперёд. Под ногами в песке начали появляться кристаллические осколки. Они выглядели, как кусочки чёрного стекла, но отсвечивали тёмно-фиолетовым. Конечно же, как я могла не подобрать несколько таких осколков."
 					}, {
 						text: "Я поднесла два осколка близко друг к другу, и они устремились навстречу, сверкая маленькими фиолетовыми молниями. Я почувствовала, как ток забегал по пальцам, было очень щекотно, даже почти больно. Несколько больших камешков также отправились в рюкзак, я подумала, что потом из них можно будет извлечь какую-нибудь пользу."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/iva/rich_af.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/iva/rich_af.jpg'
 					}, {
 						text: "Таких осколков становилось всё больше на пути, всё чаще попадались крупные. Ещё дальше земля была буквально усеяна ими, электрические вспышки прыгали между ними, и пол казался одной большой электрической цепью. Вдалеке возвышался целый столб из этого чёрного стекла."
 					}, {
 						text: "Вблизи этот столб оказался прекрасной статуей обнажённой девушки, на лице которой застыли ярость и боль. Она была такой реалистичной, как живой человек, застывший под силой какого-то проклятья."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/unknown/THESE_WOUNNNNDS_THEYY_WILLL_NOT_HEAAAALLLLLLLLLL.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/unknown/THESE_WOUNNNNDS_THEYY_WILLL_NOT_HEAAAALLLLLLLLLL.jpg'
 					}, {
 						text: "Статуя была самым настоящим произведением искусства. Сверкающая тёмная кожа переливалась светом искорок молний, танцующих по ней. Бледные белые глаза были будто жемчужинами с кружевными фиолетовыми прожилками. В грудь статуи вдавалась глубокая рана от чьего-то очень сильного удара… Да что там, она была проломлена внутрь, превратившись в дыру, сквозь которую я могла видеть сердце. Оно не только сверкало красноватым электричеством, но ещё и испускало пучки какой-то светящейся плазмы, как щупальца осьминога. Я с опаской попыталась дотронуться до статуи и внезапно услышала ужасающий рык."
 					}, {
 						text: "Я быстро обернулась, держа старушку Бэсси наготове. С оглушительным рёвом на меня набросилось громадное рогатое нечто, покрытое чешуёй. Я едва успела включить ракетный ранец и взмыть в воздух – зверюга бы прикончила меня одним прыжком. В последней моей драке ранец немного потрепало, и теперь из него на землю сочилось масло. Но, чёрт возьми, я рада, что так вышло! Зверь поскользнулся на нём и врезался в статую."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/iva/Iva04.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/iva/Iva04.jpg'
 					}, {
 						text: "Массивную бледно-жёлтую голову зверя украшали рога, растущие во всех направлениях. Он был размером с быка, только с тремя глазами, и покрыт грубой чешуёй. Ящероподобный хвост покрывали острые шипы. Скажу я вам, эта животина была слишком уродливой даже для зверя-мутанта."
 					}, {
@@ -2087,7 +2095,7 @@
 					}, {
 						text: "Я обернулась в направлении источника выстрела. Там стоял высокий мужик без единой эмоции на лице, в длинном чёрном пальто и перчатках. Он неспешно пошёл в моём направлении с длинным мечом-винтовкой наперевес. Его внешний вид и поведение выдавали в нём главаря этой банды, и, судя по всему, зверь его просто достал. Но снайпер был не единственной проблемой."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/iva/how_does_he_aim.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/iva/how_does_he_aim.jpg'
 					}, {
 						text: "Горстка бандюг осталась в живых и приближалась ко мне. Не уверена, какому роду они принадлежали, внешне они были похожи на человека, но у каждого была какая-то странность. У некоторых не хватало конечностей, у других же их было больше положенного. Парочка уродов даже делила одно тело на двоих. Значит - мутанты, изменённые жизнью во Внешних Королевствах. Потому я и носила маску – нет желания проснуться утром с ещё одной рукой, растущей непонятно откуда."
 					}, {
@@ -2095,13 +2103,13 @@
 					}, {
 						text: "Спустя мгновение я услышала ещё один выстрел, пуля лишь оставила на мне жгучую царапину. Я тут же машинально врубила свой щитовой прибамбас, и очень вовремя – несколько пуль разбились об электромагнитный барьер ливнем искр. На последнего мутанта я навела притягивающий луч и приготовила Бэсси. Как только он оказался на нужном расстоянии, я разрядила пушку ему в лицо. Он свалился замертво, и, скажу я вам, от моего свинцового макияжа его ужасная рожа уж точно стала чуть красивее."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/iva/Iva06.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/iva/Iva06.jpg'
 					}, {
 						text: "Я совсем забыла о мужике в тёмном длинном пальто. Я заметила его у найденной статуи. Изо всех сил я попыталась добраться до него с помощью ракетного ранца, но не успела – он протянул руку внутрь раны статуи и вырвал её кристальное сердце."
 					}, {
 						text: "Он заверещал от нечеловеческой боли – сердце испускало разряды молний по его руке. Руку обволокла пурпурная плазма, постепенно меняя цвет на бордовый, будто остывающий расплавленный металл. Плазма приняла форму сжатого кулака, и затем чёрные шипы пронзили её насквозь изнутри. Человек всё ещё кричал, когда вокруг него вспыхнула красная молния, а дальше… последнее, что я помню – это чудовищный взрыв и ударная волна, подбросившая мои старушечьи кости в воздух."
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/iva/boi_vs_anime.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/iva/boi_vs_anime.jpg'
 					}, {
 						text: "Я очнулась позже, плечо и спина жутко ныли от боли. Ну, больше обычного. Человек исчез, статуя рассыпалась на кучу осколков, а земля была усеяна частями тел бандитов. Должно быть, взрыв разорвал их на части. Даже зверь лежал там с изорванным брюхом. Я подошла к нему с мыслью о прекрасной броне из его чешуи, как вдруг увидела, что что-то любопытное торчит из его искорёженного живота."
 					}, {
@@ -2115,7 +2123,7 @@
                 lucieLore = [{
 						title: "Алхимия мечты"
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/lucie/illiterate_girl_drawing_lines.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/lucie/illiterate_girl_drawing_lines.jpg'
 					}, {
 						text: "Выдержки из дневника Люси Дарроу",
 						style: {
@@ -2152,7 +2160,7 @@
 					}, {
 						text: 'Ах, я так скучаю по тем временам. Очень скучаю по Зандеру. И как раз в этот момент, когда я ушла в свои мысли, Профессор Ношлин ударил своей книгой о край моей парты. «Люси Дарроу, вы слушаете?!» – вскрикнул он. Я быстро спрятала карту. От его дыхания несло тухлыми яйцами и чесноком, как всегда. Фуу! Я отвернулась, пытаясь удержать на месте съеденный ланч. А потом он ещё и посмел сказать мне, что если бы я не витала всё время в облаках на уроках, я могла бы стать лучшей в классе, а не болтаться в хвосте!'
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/lucie/asdanfkjnweljbglsdfbgsel.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/lucie/asdanfkjnweljbglsdfbgsel.jpg'
 					}, {
 						text: 'Я не виновата в том, что его класс настолько до смешного скучный, что я засыпаю каждый раз. И, конечно, Матильда и её шайка лупоглазых тупиц смеялись надо мной и тыкали пальцами. Я им покажу. Всем покажу. Я буду лучшим алхимиком из всех, кого эта Академия когда-либо видела. Кто тогда посмеётся последним?'
 					}, {
@@ -2162,7 +2170,7 @@
 					}, {
 						text: 'Это был он. Силуэт на фоне луны. Он стал выше с тех пор, как я видела его в последний раз, на нём был тёмный плащ, который развевался на ветру, хотя вокруг был штиль. Его изумрудные глаза сверкали из тени его шикарных длинных локонов. Я рванула к нему и крепко-крепко обняла. Зандер вернулся! Я подняла на него взгляд, и Зандер улыбнулся мне этой кошачьей улыбкой – так, как только он умел. Все частички его души были в этой улыбке.'
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/lucie/uwahhhhh_so_kawaiiiiiiiiii.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/lucie/uwahhhhh_so_kawaiiiiiiiiii.jpg'
 					}, {
 						text: 'Я смахнула слезу. «Где же ты был, - спросила я, - прошло больше трёх лет, Зан! Я безумно переживала! Мы все переживали.. знаешь..»'
 					}, {
@@ -2210,7 +2218,7 @@
 					}, {
 						text: 'Это было великолепно, аж дух захватывало. Были жонглёры ножами, огнедышащие акробаты, дрессированные львы, всё было чудесно… но Зандер… Зандер был иным. Он был холоден, выглядел отрешённым. И один его глаз, он светился странной фиолетовой энергией. Я помахала ему рукой, когда он окидывал взглядом толпу и… он будто не узнал меня. Я попыталась попасть к нему после представления, но сказали, что он не принимает посетителей. Я рада, что Зандер нашёл настоящую магию… но, интересно, какой ценой.'
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/lucie/very_chipmunk_much_amaze.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/lucie/very_chipmunk_much_amaze.jpg'
 					}, {
 						text: 'Запись №398',
 						style: {
@@ -2230,7 +2238,7 @@
 					}, {
 						text: 'Матильда и её прихвостни нашли стопку книг, что я стащила из библиотеки, спрятанную мной в тайнике под мангровым деревом. И я в ту же секунду оказалась на ковре в кабинете у директора с родителями, меня исключили. Директор не хотел слышать никаких оправданий. Не хотел видеть совершённые мной открытия в экспериментальной алхимии. Он просто хотел, чтобы я исчезла.'
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/lucie/gurl_dem_eyelashes_are_fire.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/lucie/gurl_dem_eyelashes_are_fire.jpg'
 					}, {
 						text: 'Мама и папа высказали, как они разочаровались во мне. Я не ругалась и не спорила. Они были правы, я подвела их. Подвела себя. Я знала, что если бы Зандер был рядом, он бы так не сказал. Два года прошло с тех пор, как я его потеряла. Но Зандер следовал своим мечтам и претворял их в жизнь, даже если… это стоило ему… жизни... Он стал самым прославленным фокусником в мире. Он исполнил свою мечту. Что же на счёт мечты о величайшем в мире алхимике… я не знала, смогу ли я её реализовать.'
 					}, {
@@ -2244,116 +2252,116 @@
 					}, {
 						text: 'Я не остановлюсь ни перед чем, мои мечты станут реальностью. Арены станут моей школой. На Аренах никакие пыльные профессора или заносчивые принцесски не встанут на моём пути, а если и да, то… я буду готова!'
 					}, {
-						image: 'https://battlerite-ru.github.io/lore/images/stories/lucie/they_are_some_big_hecking_gloves.jpg'
+						image: 'http://192.168.5.101:1234/lore/images/stories/lucie/they_are_some_big_hecking_gloves.jpg'
 					}
 				],
                 Q = a(176),
                 J = [{
                     content: q,
                     champion: "ruh_kaan",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/ruhkaan/ruhPreview.jpg",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/ruhkaan/BookOfLoreRuhKaan.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/ruhkaan/ruhPreview.jpg",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/ruhkaan/BookOfLoreRuhKaan.jpg",
                     date: "2018-10-24",
                     status: "released",
                     _id: 1
                 }, {
                     content: V,
                     champion: "raigon",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/raigon/raigon-preview.jpg",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/raigon/raigon_ft_boi.png",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/raigon/raigon-preview.jpg",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/raigon/raigon_ft_boi.png",
                     date: "2018-10-31",
                     status: "released",
                     _id: 2
                 }, {
                     content: U,
                     champion: "ezmo",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/ezmo/ezmo_preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/ezmo/boi_goin_out_tonight.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/ezmo/ezmo_preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/ezmo/boi_goin_out_tonight.jpg",
                     date: "2018-11-7",
                     status: "released",
                     _id: 3
                 }, {
                     content: Y,
                     champion: "freya",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/freya/speak_to_me_harry.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/freya/pretty_windy.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/freya/speak_to_me_harry.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/freya/pretty_windy.jpg",
                     date: "2018-11-14",
                     status: "released",
                     _id: 4
                 }, {
                     content: K,
                     champion: "ashka",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/ashka/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/ashka/imagine_waking_up_to_this_boi.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/ashka/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/ashka/imagine_waking_up_to_this_boi.jpg",
                     date: "2018-11-21",
                     status: "released",
                     _id: 5
                 }, {
                     content: X,
                     champion: "blossom",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/blossom/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/blossom/Blossom02.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/blossom/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/blossom/Blossom02.jpg",
                     date: "2018-11-28",
                     status: "released",
                     _id: 6
                 }, {
                     content: croakLore,
                     champion: "croak",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/croak/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/croak/take_a_bath.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/croak/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/croak/take_a_bath.jpg",
                     date: "2018-12-5",
                     status: "released",
                     _id: 7
                 }, {
                     content: bakkoLore,
                     champion: "bakko",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/bakko/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/bakko/bakko4.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/bakko/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/bakko/bakko4.jpg",
                     date: "2018-12-12",
                     status: "released",
                     _id: 8
                 }, {
                     content: pestilusLore,
                     champion: "pestilus",
-                    pinPreviewImage: "https://battlerite-ru.github.io/lore/images/stories/pestilus/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/pestilus/how_to_make_a_boi.jpg",
+                    pinPreviewImage: "http://192.168.5.101:1234/lore/images/stories/pestilus/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/pestilus/how_to_make_a_boi.jpg",
                     date: "2018-12-19",
                     status: "released",
                     _id: 9
                 }, {
                     content: jumongLore,
                     champion: "jumong",
-					pinPreviewImage:"https://battlerite-ru.github.io/lore/images/stories/jumong/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/jumong/strong_independant_boi.jpg",
+					pinPreviewImage:"http://192.168.5.101:1234/lore/images/stories/jumong/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/jumong/strong_independant_boi.jpg",
                     date: "2018-12-26",
                     status: "released",
                     _id: 10
                 }, {
                     content: ivaLore,
                     champion: "iva",
-					pinPreviewImage:"https://battlerite-ru.github.io/lore/images/stories/iva/preview.png",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/unknown/THESE_WOUNNNNDS_THEYY_WILLL_NOT_HEAAAALLLLLLLLLL.jpg",
+					pinPreviewImage:"http://192.168.5.101:1234/lore/images/stories/iva/preview.png",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/unknown/THESE_WOUNNNNDS_THEYY_WILLL_NOT_HEAAAALLLLLLLLLL.jpg",
                     date: "2019-01-16",
                     status: "released",
                     _id: 11
                 }, {
                     content: lucieLore,
                     champion: "lucie",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/lucie/asdanfkjnweljbglsdfbgsel.jpg",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/lucie/asdanfkjnweljbglsdfbgsel.jpg",
                     date: "2019-01-23",
                     status: "featured",
                     _id: 12
                 }, {
                     content: [],
                     champion: "???",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/unknown/Book_big.jpg",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/unknown/Book_big.jpg",
                     date: "2019-01-30",
                     status: "preview",
                     _id: 13
                 }, {
                     content: [],
                     champion: "???",
-                    cardImage: "https://battlerite-ru.github.io/lore/images/stories/unknown/Book_big.jpg",
+                    cardImage: "http://192.168.5.101:1234/lore/images/stories/unknown/Book_big.jpg",
                     date: "2019-02-19",
                     status: "preview",
                     _id: 14
@@ -2734,7 +2742,7 @@
                                     action: function () {
                                         window.open("http://lore.battlerite.com/", '_blank');
                                     },
-                                    image: "https://battlerite-ru.github.io/lore/images/home_en.png",
+                                    image: "http://192.168.5.101:1234/lore/images/home_en.png",
                                     tooltip: "Официальный сайт [EN]",
                                     paths: ["/lore/", "/lore/map/", "/lore/stories/"],
                                     onMobile: 1
@@ -2744,7 +2752,7 @@
                                     action: function () {
                                         e.props.history.push("/lore/")
                                     },
-                                    image: "https://battlerite-ru.github.io/lore/images/home.png",
+                                    image: "http://192.168.5.101:1234/lore/images/home.png",
                                     tooltip: "Домашняя страница",
                                     paths: ["/lore/", "/lore/map/", "/lore/stories/"],
                                     onMobile: 1
@@ -2754,7 +2762,7 @@
                                     action: function () {
                                         e.props.history.push("/lore/map/")
                                     },
-                                    image: "https://battlerite-ru.github.io/lore/images/map.png",
+                                    image: "http://192.168.5.101:1234/lore/images/map.png",
                                     tooltip: "Карта мира",
                                     paths: ["/lore/", "/lore/map/", "/lore/stories/"],
                                     onMobile: 0
@@ -2764,7 +2772,7 @@
                                     action: function () {
                                         e.props.history.push("/lore/stories/")
                                     },
-                                    image: "https://battlerite-ru.github.io/lore/images/stories.png",
+                                    image: "http://192.168.5.101:1234/lore/images/stories.png",
                                     tooltip: "Истории",
                                     paths: ["/lore/", "/lore/map/", "/lore/stories/"],
                                     onMobile: 1
@@ -2772,7 +2780,7 @@
                                     type: "bottom",
                                     alt: "sound-controls",
                                     action: this.props.toggleSounds,
-                                    image: this.props.isMuted ? "https://battlerite-ru.github.io/lore/images/sound_muted.png" : "https://battlerite-ru.github.io/lore/images/sound_unmuted.png",
+                                    image: this.props.isMuted ? "http://192.168.5.101:1234/lore/images/sound_muted.png" : "http://192.168.5.101:1234/lore/images/sound_unmuted.png",
                                     tooltip: this.props.isMuted ? "Включить звук" : "Приглушить",
                                     paths: ["/lore/map/", "/lore/stories/"],
                                     onMobile: 1
