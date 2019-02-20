@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 #home--map {
-    background-image: url(https://battlerite-ru.github.io/lore/images/home_map_bg.jpg);
+    background-image: url(http://192.168.5.101:1234/lore/images/home_map_bg.jpg);
     height: 60vh;
 }
 #home--map,#home--stories {
@@ -18,7 +18,7 @@
     transition-timing-function: ease-in;
 }
 #home--stories {
-    background-image: url(https://battlerite-ru.github.io/lore/images/Freya06-min.jpg);
+    background-image: url(http://192.168.5.101:1234/lore/images/Freya06-min.jpg);
     box-shadow: 0 -2px 0 #d3fdfd;
     height: 40vh;
 }
@@ -107,15 +107,15 @@
 }
 @font-face {
     font-family: DroidSans;
-    src: url(https://battlerite-ru.github.io/lore/fonts/droidsans-webfont.woff) format("woff"),url(https://battlerite-ru.github.io/lore/fonts/DroidSans.ttf) format("truetype");
+    src: url(http://192.168.5.101:1234/lore/fonts/droidsans-webfont.woff) format("woff"),url(http://192.168.5.101:1234/lore/fonts/DroidSans.ttf) format("truetype");
 }
 @font-face {
     font-family: DroidSansBold;
-    src: url(https://battlerite-ru.github.io/lore/fonts/droidsans-bold-webfont.woff) format("woff"),url(https://battlerite-ru.github.io/lore/fonts/DroidSans-Bold.ttf) format("truetype");
+    src: url(http://192.168.5.101:1234/lore/fonts/droidsans-bold-webfont.woff) format("woff"),url(http://192.168.5.101:1234/lore/fonts/DroidSans-Bold.ttf) format("truetype");
 }
 @font-face {
     font-family: Indira_K;
-    src: url(https://battlerite-ru.github.io/lore/fonts/IndiraK.woff) format("woff"),url(https://battlerite-ru.github.io/lore/fonts/Indira_K.ttf) format("truetype");
+    src: url(http://192.168.5.101:1234/lore/fonts/IndiraK.woff) format("woff"),url(http://192.168.5.101:1234/lore/fonts/Indira_K.ttf) format("truetype");
 }
 .smallModal {
     cursor: default;
@@ -261,7 +261,7 @@
     z-index: 10;
 }
 .smallChampionModalContent h3 {
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 600;
     text-shadow: 2px 2px #000;
 }
@@ -321,7 +321,7 @@ img {
     width: 450px;
 }
 .map {
-    background-image: url(https://battlerite-ru.github.io/lore/images/map_all.jpg);
+    background-image: url(http://192.168.5.101:1234/lore/images/map_all.jpg);
     background-size: cover;
     cursor: -webkit-grab;
     moz-user-select: none;
@@ -654,7 +654,7 @@ img {
     transition: opacity .3s ease-in;
 }
 .pearl-overlay {
-    background-image: url(https://battlerite-ru.github.io/lore/images/PEARL.gif);
+    background-image: url(http://192.168.5.101:1234/lore/images/PEARL.gif);
     background-repeat: repeat;
     background-size: 150px;
     height: 100%;
@@ -774,7 +774,7 @@ img {
     opacity: .6;
 }
 #stories {
-    background-image: url(https://battlerite-ru.github.io/lore/images/chapter_bg_new.jpg);
+    background-image: url(http://192.168.5.101:1234/lore/images/chapter_bg_new.jpg);
     background-position: 50%;
     background-size: cover;
     margin: 0 auto;
@@ -897,6 +897,24 @@ img {
     box-shadow: 0 0 10px #d3fdfd;
     z-index: 3;
 }
+.sidebar-item {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.mapInteractable {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.championPinContainer {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
 .bottomItems,.sidebar-items,.topItems {
     align-items: center;
     display: flex;
@@ -943,7 +961,7 @@ img {
     z-index: 4;
 }
 .pityContainer {
-    background-image: url(https://battlerite-ru.github.io/lore/images/WorldMap_small.jpg);
+    background-image: url(http://192.168.5.101:1234/lore/images/WorldMap_small.JPG);
     background-position: 50%;
     background-size: cover;
     height: 100vh;
@@ -1019,4 +1037,60 @@ blockquote:after,blockquote:before,q:after,q:before {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+.pity-content .fancyButton {
+    height: 40px !important;
+}
+.Shelter-Node {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 17px;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+.Shelter-Node-Inner1 {
+    width: 24px;
+    border: 3px solid #FFF;
+    height: 24px;
+    border-radius: 15px;
+    position: absolute;
+}
+.Shelter-Node-Inner2 {
+    width: 16px;
+    border: 2px solid #000;
+    height: 16px;
+    border-radius: 15px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.Shelter-Node-Inner3 {
+    width: 10px;
+    border: 3px solid #FFF;
+    height: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.Shelter-Node-Inner4 {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #000;
+}
+.Dotted-Line {
+    display: block;
+    width: 26px;
+    height: 6px;
+    border: 2px solid black;
+    background: #FFF;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -5px;
 }
